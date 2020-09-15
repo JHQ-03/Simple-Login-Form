@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px;
+    padding: 5px;
+    background: linear-gradient(30deg,#115F9A,#093F68,#078991);
+    height: 100vh;
+    font-size: 14px;
+    font-family: sans-serif;
+}h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: floralwhite;
+    margin-top: 40px;
+}
+.form{
+	background: rgba(255,255,255,0.6); 
+    width:470px; 
+    margin:0 auto;
+    border-radius: 10px;
+    padding-left:50px; 
+    padding-top:20px;
+}
+.form fieldset{
+    border: 0px; 
+    padding: 0px; 
+    margin: 0px;
+}
+.form p.contact { 
+    font-size: 12px; 
+    margin:0px 0px 10px 0;
+    line-height: 14px; 
+    font-family:Arial, Helvetica;}
+
+.form input[type="text"]{ 
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+}
+.form input[type="email"]{
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+}
+.forminput[type="password"]{ 
+    width: 400px;
+    padding: 10px;
+}
+.form input.birthday{
+    width:60px;
+    background-color: white;
+}
+.form input.birthyear{
+    width:120px;
+    background-color: white;
+}
+.form label { 
+    color: #000; 
+    font-weight:bold;
+    font-size: 12px;
+    font-family:Arial, Helvetica; 
+}
+.form label.month {
+    width: 135px;
+}
+.form input, textarea { 
+    background-color: rgba(255, 255, 255, 0.4); 
+    border: 1px solid rgba(122, 192, 0, 0.15); 
+    padding: 7px; 
+    font-family: Keffeesatz, Arial; 
+    color: #4b4b4b; 
+    font-size: 14px; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+    margin-top: 3px; 
+}
+.form input:focus, textarea:focus { 
+    border: 1px solid #ff5400; 
+    background-color: rgba(255, 255, 255, 1); 
+}
+.form .select-style {
+  appearance: button;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  padding-end: 20px;
+  padding-start: 2px;
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.form .gender {
+  width:410px;
+  }
+span{
+    color: black;
+    font-size: 14px;
+}
+a{
+    color: red;
+}
+input:focus{
+      outline: none;
+}
+.form input.button{ 
+    background: #4b8df9; 
+    display: inline-block; 
+    padding: 5px 10px 6px; 
+    color: #fbf7f7; 
+    text-decoration: none; 
+    border: 0px; 
+    position: relative; 
+    cursor: pointer; 
+    font-size: 14px; 
+    font-family:Verdana, Geneva, sans-serif;}
+.form input.button:hover{
+    background-color: red;
+    border: 1px solid black;
+    transition: 0.5s;
+}
